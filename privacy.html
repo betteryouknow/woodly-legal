@@ -6,20 +6,23 @@
 <nav><a class="brand" href="./"><span class="dot"></span> Woodly</a>
 <div class="links"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></nav>
 <div class="wrap"><span class="tag">Privacy</span><h1>Privacy Policy</h1>
-<p class="small">Last updated: July 30, 2026</p>
+<p class="small">Last updated: November 3, 2026</p>
 <p class="muted">Woodly is built to respect your privacy. This policy explains what data the app
 handles and why. In short: we don't require an account, we don't sell your data, and we don't use
 it to train models.</p>
 <h2>What we handle</h2><p class='muted'>To provide the app's core feature, the following is handled:</p><ul class='muted'><li><strong>User Content (Other)</strong> — not linked to you; not used for tracking; purpose: App Functionality.</li></ul><div class='card muted'>The project description the user types is sent to the backend LLM only to generate their plan and cut list. Not retained, not linked to identity, never used for tracking. Saved projects and all calculators stay on device.</div>
 <h2>Third-party processing</h2>
 <p class="muted">When you use an AI feature, your input is sent securely to our processing service
-(and its AI provider) solely to produce your result. It is processed in the request and not retained,
-and is never used to train models.</p>
+(and its AI provider) solely to produce your result. Our backend processes AI content in memory without saving it. Google Gemini and Cloudflare process data according to their applicable service terms and privacy policies. Security records are retained as explained below.</p>
 <h2>Your choices</h2>
 <p class="muted">You control what you submit. On-device data can be deleted at any time from within
 the app or by removing the app.</p>
 <h2>Children</h2>
 <p class="muted">Woodly is not directed to children under 13.</p>
+<section id="secure-ai-processing-20261031"><h2>Secure AI processing and abuse prevention</h2>
+<p>In the security update, AI requests you choose to submit travel over HTTPS through our Cloudflare-hosted backend to Google Gemini. Our backend processes the submitted content and the generated response in memory without saving their contents.</p>
+<p>To authenticate the app, prevent abuse and control AI spending, the backend retains an opaque App Attest public key identifier and public key, assertion counters, short-lived challenge and rate-limit records, and usage totals. IP addresses are processed for connection security; our application rate-limit records use hashed values. These security records are separate from the content stored on your device and are not used for advertising or cross-app tracking. Public keys and counters are retained to verify future requests.</p>
+<p>Cloudflare provides backend hosting and network security. Google provides AI processing. Their handling of data is governed by their respective terms and privacy policies. Deleting local app content removes the on-device copy; it does not automatically remove the separate backend security records.</p></section>
 <h2>Contact</h2>
 <p class="muted">Questions or data requests? Email us at <a href="mailto:taylankaradeniz@outlook.com">taylankaradeniz@outlook.com</a> or reach us via our <a href="index.html">support page</a>.</p>
 </div><footer>© 2026 Woodly</footer></body></html>
